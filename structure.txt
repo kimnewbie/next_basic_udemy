@@ -1,0 +1,18 @@
+ㄴ public
+    ㄴ images
+    ㄴ next.svg
+    ㄴ vercel.svg
+ㄴ src
+    ㄴ app
+        ㄴ news
+            ㄴ page.js 
+        ㄴ favicon.ico
+        ㄴ globals.css
+        ㄴ layout.js
+        ㄴ page.js
+        ㄴ page.module.css
+    ㄴ pages
+    ㄴ styles
+.gitignore
+package.json
+README.md
