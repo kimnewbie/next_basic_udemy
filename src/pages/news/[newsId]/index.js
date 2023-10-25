@@ -1,5 +1,3 @@
-'use client'
-
 import { useParams } from "next/navigation";
 
 // our-domain.com/news/newsId
