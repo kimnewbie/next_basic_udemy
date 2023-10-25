@@ -23,27 +23,27 @@ const HomePage = (props) => {
     )
 }
 
-export function getServerSideProps(context) {
-    const req = context.req;
-    const res = context.res;
+// export function getServerSideProps(context) {
+//     const req = context.req;
+//     const res = context.res;
 
-    // fetch data from an API
-
-    return {
-        props: {
-            meetups: DUMMY_MEETUPS
-        }
-    };
-}
-
-// export function getStaticProps() {
 //     // fetch data from an API
+
 //     return {
 //         props: {
 //             meetups: DUMMY_MEETUPS
-//         },
-//         revalidate: 3600 // 1시간
+//         }
 //     };
 // }
+
+export function getStaticProps() {
+    // fetch data from an API
+    return {
+        props: {
+            meetups: DUMMY_MEETUPS
+        },
+        revalidate: 3600 // 1시간
+    };
+}
 
 export default HomePage;
