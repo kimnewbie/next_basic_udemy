@@ -10,7 +10,7 @@ const MeetupDetail = (props) => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '80%', height: 'auto' }}
                 alt={props.title}
             />
             <h1>{props.title}</h1>
