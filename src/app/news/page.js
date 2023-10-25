@@ -1,8 +1,10 @@
+// our-domain.com/news
+
 function NewsPage() {
     return (
-        <div>
+        <h1>
             NewsPage
-        </div>
+        </h1>
     )
 }
 
