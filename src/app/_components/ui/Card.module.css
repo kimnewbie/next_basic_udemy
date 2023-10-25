@@ -1,0 +1,12 @@
+.card {
+  background-color: white;
+  /* light 모드인 경우에만 */
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: inherit;
+  }
+}

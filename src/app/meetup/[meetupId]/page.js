@@ -1,15 +1,17 @@
+"use client"
 import { useParams } from "next/navigation";
 
-// our-domain.com/news/newsId
+// our-domain.com/new-meepup/meetupId
 
 function DetailPage() {
     const router = useParams();
-    const newsId = router.newsId;
+    const meetupId = router.meetupId;
 
-    console.log(newsId)
+    console.log(meetupId)
+    console.log(router)
 
     // send a request to the backend API
-    // to fetch the news item with newsId
+    // to fetch the news item with meetupId
 
     return (
         <h1>

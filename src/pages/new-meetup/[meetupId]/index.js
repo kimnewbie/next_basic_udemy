@@ -7,6 +7,7 @@ function DetailPage() {
     const meetupId = router.meetupId;
 
     console.log(meetupId)
+    console.log(router)
 
     // send a request to the backend API
     // to fetch the news item with meetupId
