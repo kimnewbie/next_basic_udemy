@@ -32,4 +32,4 @@ export function getStaticProps() {
     };
 }
 
-export default HomePage
+export default HomePage;
