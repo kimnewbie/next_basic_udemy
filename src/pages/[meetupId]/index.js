@@ -27,7 +27,8 @@ export async function getStaticPaths() {
     client.close();
 
     return {
-        fallback: false, // 지정한 페이지만 나오게
+        // fallback: false, // 지정한 페이지만 나오게
+        fallback: 'blocking', // deploy하고 db 업데이트 했을 때 오류나오는 거 방지
         paths: meetups.map((meetup) => ({
             params: { meetupId: meetup._id.toString() }
         }))
