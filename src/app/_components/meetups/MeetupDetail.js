@@ -4,7 +4,6 @@ import classes from './MeetupDetail.module.css';
 const MeetupDetail = (props) => {
     return (
         <section className={classes.detail}>
-            {/* <img src={props.image} alt={props.title} /> */}
             <Image
                 src={props.image}
                 width={0}
