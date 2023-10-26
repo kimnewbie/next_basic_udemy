@@ -70,7 +70,7 @@ export async function getStaticProps() {
                 id: meetup._id.toString(),
             }))
         },
-        revalidate: 3600 // 1시간
+        revalidate: 1 //3600 // 1시간
     };
 }
 
